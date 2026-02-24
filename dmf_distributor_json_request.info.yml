@@ -1,0 +1,7 @@
+name: 'Anyrel Distributor JSON Request'
+type: module
+description: 'HTTP JSON Request data dispatcher for Anyrel Distributor'
+package: Anyrel
+core_version_requirement: ^10.3 || ^11
+dependencies:
+  - dmf_distributor_core:dmf_distributor_core

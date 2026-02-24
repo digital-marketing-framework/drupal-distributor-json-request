@@ -1,0 +1,10 @@
+services:
+  dmf_distributor_json_request.core_registry_update_event_subscriber:
+    class: Drupal\dmf_distributor_json_request\Registry\EventSubscriber\CoreRegistryUpdateEventSubscriber
+    tags:
+      - { name: event_subscriber }
+
+  dmf_distributor_json_request.distributor_registry_update_event_subscriber:
+    class: Drupal\dmf_distributor_json_request\Registry\EventSubscriber\DistributorRegistryUpdateEventSubscriber
+    tags:
+      - { name: event_subscriber }
